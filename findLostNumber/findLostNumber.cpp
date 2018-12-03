@@ -20,7 +20,7 @@ size_t findLostNumber(list<size_t> li)
         {
             if((*it)&(1<<bit))
             {
-                onelist.push_back(*it);
+                onelist.push_back(*it);2
             }
             else
             {
