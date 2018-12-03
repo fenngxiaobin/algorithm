@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fxb/cpp_projects/cmake_projects/BitMap/BitMap.cpp
+BitMap.h
+/home/fxb/cpp_projects/cmake_projects/BitMap/BitMap.h
+
+/home/fxb/cpp_projects/cmake_projects/BitMap/BitMap.h
+vector
+-
+
+/home/fxb/cpp_projects/cmake_projects/BitMap/test/test.cpp
+../BitMap.h
+/home/fxb/cpp_projects/cmake_projects/BitMap/BitMap.h
+iostream
+-
+

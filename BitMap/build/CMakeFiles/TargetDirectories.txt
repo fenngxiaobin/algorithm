@@ -1,0 +1,3 @@
+/home/fxb/cpp_projects/cmake_projects/BitMap/build/CMakeFiles/edit_cache.dir
+/home/fxb/cpp_projects/cmake_projects/BitMap/build/CMakeFiles/rebuild_cache.dir
+/home/fxb/cpp_projects/cmake_projects/BitMap/build/CMakeFiles/bitmap.dir
