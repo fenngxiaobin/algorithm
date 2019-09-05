@@ -15,4 +15,12 @@ int DepthRecurse(BinaryTreeNode* root)
     return DepthRecurse(root->m_pLeft)>DepthRecurse(root->m_pRight)?(DepthRecurse(root->m_pLeft)+1):(DepthRecurse(root->m_pRight)+1);
 }
 
-
+class Solution {
+public:
+    int TreeDepth(TreeNode* pRoot)
+    {
+        if(!pRoot)
+            return 0;
+        return max(TreeDepth(pRoot->left),TreeDepth(pRoot->right))+1;
+    }
+};
